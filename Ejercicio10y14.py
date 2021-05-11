@@ -23,3 +23,23 @@ for i in ciudad:
    if(i[0]=="C") and (i[1]=="a") and (i[2]=="r")and (i[3]=="a"):
     print(i)
 archivo.close()
+
+archivo = open('paises.txt', 'r')
+#imprima la posicion del pais de Mexico
+archivo= open('paises.txt')
+lista=[]
+li=[]
+a=[]
+cont=0
+for i in archivo:
+  a=i.index(":")
+  cont+=1
+  for r in range(0,a):
+    lista.append(i[r])
+  a="".join(lista)
+  #print(a)
+  lista=[]
+  li.append(a)
+a=li.index('México')
+print(a)
+archivo.close()
