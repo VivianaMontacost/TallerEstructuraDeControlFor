@@ -12,4 +12,6 @@ for i in archivo:
 for i in ciudad:
   if(i[0]=="M"):
     print(i)
+    lista.append(i)
+print(len(lista))
 archivo.close()
