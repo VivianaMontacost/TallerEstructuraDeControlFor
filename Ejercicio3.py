@@ -1,5 +1,6 @@
 archivo = open('paises.txt', 'r')
 #Imprima todas las Capitales
+
 lista=[]
 for i in archivo:
   a=i.index(":")
