@@ -1,4 +1,5 @@
 archivo = open('paises.txt', 'r')
+
 #Imprimir todos los paises que inicien con la letra C
 lista=[]
 paises=[]
