@@ -8,4 +8,5 @@ for i in archivo:
   a="".join(lista)
   print(a)
   lista=[]
+
 archivo.close()
