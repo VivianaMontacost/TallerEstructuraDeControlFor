@@ -1,5 +1,6 @@
 archivo = open('paises.txt', 'r')
 #imprima todas las capitales que inicien con la leta B
+
 lista=[]
 ciudad=[]
 for i in archivo:
